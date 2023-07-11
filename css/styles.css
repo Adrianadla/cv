@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* Para que el scrolleo en la one page sea suave */
+    scroll-behavior: smooth;
+}
+
+/* Para quitar los puntos a los items de listas */
+ul {
+    list-style: none;
+}
+
+/* Para que los enlaces hereden el color de texto y no tengan subrayado */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    color:#af599e;
+    background-color:#ded7db;
+}
+/* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
+*  el margin: auto; para tenerlo centrado fácilmente ;)
+*/
+main {
+
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+
+
+body{
+    background-color:#fbfbfb;
+    font-family: 'Lato', sans-serif;
+    color:  #0f0f0f;
+    font-size: 18px;   
+}
+
+header{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position:fixed;
+    background-color:#fbfbfb;
+    height: 90px;
+    width: 100%;
+    box-shadow: 2px 0px 10px rgb(160, 158, 158) ;
+    font-weight: 700;
+}
+
+nav a{
+    margin: 20px;
+}
+
+h1{
+    text-align: center;
+    font-size: 36px;
+
+}
+
+h2{
+    margin-top: 20px;
+    font-size: 28px;
+
+}
+
+p{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 1.2;
+}
+
+#seccion1{
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.foto{
+    display: flex;
+    justify-content: center;
+}
+
+#yo{
+    border-radius: 50%;
+    width: 300px;
+    margin-top: 120px;
+
+}   
+
+
+
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left:20px;
+    margin-right:20px;
+}
+
+#cv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #af599e;
+    color:#fbfbfb;   
+    font-size: 20px; 
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+#cv:hover{
+    color:#af599e;
+    background-color:#ded7db;
+}
+
+#seccion2{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    margin-left:20px;
+    margin-right:20px;
+    border-radius: 10px;
+    background-color: rgba(175, 89, 158, 0.3);
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imred{
+
+    width: 50px;
+    margin: 30px;
+}
+
+.imred:hover{
+    color:#af599e;
+    background-color:#ded7db;
+
+}
+
+footer{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+    margin-top: 50px;
+    height: 90px;
+    background-color: #af599e;
+    color:#fbfbfb;    
+}
+
+footer p{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+
+
